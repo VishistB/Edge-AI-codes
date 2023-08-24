@@ -1,0 +1,15 @@
+import imutils
+import cv2
+import numpy as np
+
+i=cv2.imread('dark.jpeg')
+h,w,ch=i.shape
+
+m=3
+n=3
+d=2
+
+j=np.zeros_like(i)
+for chan in range(ch):
+    for r in range(r):
+        for c in range
